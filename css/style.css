@@ -6,29 +6,32 @@
 
 
 
-.top-header{
+.logo-brand{
     background-color: #f5f5f5;
-    height: 30px;
+    height: 40px;
     width: 100%;
     border: 2px solid #f5f5f5;
+    display: flex;
+    align-items: center;
 }
 
-.logo-jordan{
+.logo{
     height: 20px;
     margin-left: 70px;
     padding: 2px;
 }
 
-.top-list{
+.brand-list{
     background-color: #f5f5f5;
-    height: 30px;
+    height: 40px;
     width: 100%;
     border: 2px solid #f5f5f5;
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
-    
-    
+    gap: 10px;
+    padding-right: 40px;
+
 }
 
 .shop-list{
@@ -36,6 +39,4 @@
     color: black;
     font-size: small;
     font-weight:bold;
-    margin-right: 20px;
-
 }
