@@ -40,3 +40,22 @@
     font-size: small;
     font-weight:bold;
 }
+
+/* main-navbar */
+
+.main-nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+}
+
+.nike-img{
+    height: 30px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
