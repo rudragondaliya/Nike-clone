@@ -18,7 +18,129 @@
     height: 20px;
 }
 
-.main-header{
-    height: 60px;
+
+
+
+.nav-list{
+    position: relative;
 }
+
+.nav-list>a:hover::before{
+    content: '';
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.2s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-list>a:hover::after{
+   content: '';
+   height: 2px;
+   position: absolute;
+   left: 0;
+   bottom: 5px;
+   background-color: black;
+   transition: all 0.2s;
+   opacity: 1;
+   width: 100%;
+   display: block;
+   
+}
+
+.search-bar{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.search-icon{
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+}
+
+.search-icon:hover{
+    background-color: silver;
+}
+
+.bx-search{
+    font-size: 20px;
+}
+
+.search-bar>input{
+    position: absolute;
+    bottom: 0px;
+    background:none;
+    height: 34px;
+    border-radius: 20px;
+    width: 112px;
+    left: 35px;
+    outline: none ;
+    border: none;
+}
+
+
+input::placeholder{
+    color: rgb(46, 45, 45);
+    position: absolute;
+    bottom: 8px;
+}
+
+.icons{
+    height: 42px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heart-icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.basket-icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.bx-heart{
+    font-size: 24px;
+}
+
+.bx-shopping-bag{
+    font-size: 24px;
+}
+
+.basket-icon:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.heart-icon:hover{
+    background-color: rgb(231, 231, 231);
+}
+
 
