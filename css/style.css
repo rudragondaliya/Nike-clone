@@ -151,10 +151,11 @@ input::placeholder{
 }
 
 .search-field>input{
-    height: 30px;
+    height: 32px;
     width: 800px;
     border-radius: 20px;
     background-color: #f5f5f5;
+    border: none;
 }
 
 .search-field>input>::placeholder{
@@ -167,14 +168,34 @@ input::placeholder{
     height: 30px;
     width: 30px;
     border-radius: 20px;
-    background-color: #c0bcbc;
+    background-color: #f5f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
 
+
 }
 .search-field>::placeholder{
-    margin-left: 30px;
+    margin-left: 30px
  
 }
+
+.modal-txt{
+    margin-left: 130px;
+}
+
+.button-box{
+    margin-left: 120px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.btn>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
 
