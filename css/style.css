@@ -223,6 +223,21 @@ input::placeholder{
 
 }
 
+.banner-video{
+    height: 500px;
+    scrollbar-width: none;
+}
+
+.main-video{
+   height:500px;
+   width: 100%;
+   object-fit: cover;
+
+
+   
+   
+}
+
   
   
 
